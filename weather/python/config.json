@@ -1,0 +1,19 @@
+{
+  "dockerImageBuilder": "cimg/python:3.8",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "What's the city do you want to know the forecast weather? ",
+      "name": "city",
+      "type": "text"
+    },
+    {
+      "name": "openweathermap_token",
+      "type": "CREDENTIAL_OPENWEATHERMAP_TOKEN"
+    }
+  ]
+}
