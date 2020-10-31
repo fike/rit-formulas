@@ -1,0 +1,12 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-shell-bat-builder",
+  "inputs": [
+    {
+      "label": "Qual seu ambiente: ",
+      "name": "env",
+      "type": "text",
+      "tutorial": "Digite seu ambiente => environment",
+      "required": true
+    }
+  ]
+}
